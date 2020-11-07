@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import datetime
 
 # t.me/TrueGoroscope_bot
+# telegram: t.me/metiz0n
 
 try:
     bot = telebot.TeleBot('1261892119:AAFEu69hz2xQdxH1h8KuqlJuZuVD0ygUj_c')
