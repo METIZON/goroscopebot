@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import datetime
 
 # t.me/TrueGoroscope_bot
-# telegram: t.me/metiz0n
 
 try:
     bot = telebot.TeleBot('1261892119:AAFEu69hz2xQdxH1h8KuqlJuZuVD0ygUj_c')
@@ -70,7 +69,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'telec':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/taurus/today.html').text
@@ -81,7 +80,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'bliznec':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/gemini/today.html').text
@@ -92,7 +91,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'rak':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/cancer/today.html').text
@@ -103,7 +102,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'lev':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/lion/today.html').text
@@ -114,7 +113,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'deva':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/virgo/today.html').text
@@ -125,7 +124,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'vesy':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/libra/today.html').text
@@ -136,7 +135,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'scorpion':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/scorpio/today.html').text
@@ -147,7 +146,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'strelec':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/sagittarius/today.html').text
@@ -158,7 +157,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'kozerog':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/capricorn/today.html').text
@@ -169,7 +168,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'aqua':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/aquarius/today.html').text
@@ -180,7 +179,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         elif call.data == 'fish':
             res = requests.get(
                 'https://orakul.com/horoscope/astrologic/general/pisces/today.html').text
@@ -191,7 +190,7 @@ try:
             a = str(datetime.date.today())
             b = a.split('-')
             bot.send_message(
-                call.message.chat.id, 'Ваш гороскоп на ' + b[1] + '.' + b[2] + ':\n ' + info[0])
+                call.message.chat.id, 'Ваш гороскоп на ' + b[2] + '.' + b[1] + ':\n ' + info[0])
         else:
             pass
 
