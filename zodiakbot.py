@@ -48,8 +48,8 @@ try:
     @bot.message_handler(commands=['start'])
     def start_msg(message):
         bot.send_message(message.chat.id,
-                         text=f'Приветствую {message.chat.first_name}! Выберите ваш знак зодиака:',
-                         reply_markup=markup1)
+                         text=f'Приветствую <b>{message.chat.first_name}</b>! Выберите ваш знак зодиака:',
+                         reply_markup=markup1, parse_mode='html')
 
     @bot.message_handler(content_types=['text'])
     def send_msg(message):
