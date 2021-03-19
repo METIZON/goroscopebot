@@ -8,7 +8,7 @@ import datetime
 # t.me/TrueGoroscope_bot
 
 try:
-    bot = telebot.TeleBot('1261892119:AAFEu69hz2xQdxH1h8KuqlJuZuVD0ygUj_c')
+    bot = telebot.TeleBot('')
 
     markup1 = telebot.types.InlineKeyboardMarkup()
 
